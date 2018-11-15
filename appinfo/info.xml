@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>kmlswisstopo</id>
+    <name>Kml Swisstopo</name>
+    <summary>Displays KML files on swisstopo layer</summary>
+    <description><![CDATA[Displays KML files on swisstopo layer]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="guillaume.hochet@gmail.com" >guillaume hochet</author>
+    <namespace>KmlSwisstopo</namespace>
+    <category>integration</category>
+    <bugs>https://www.github.com</bugs>
+    <dependencies>
+        <nextcloud min-version="14" max-version="14"/>
+    </dependencies>
+</info>
