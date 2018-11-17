@@ -43,13 +43,15 @@
 }
 
 #viewer-layout {
-    width:100%;
-    height:100%;
+    width:98%;
+    height:98%;
     max-width:1024px;
     max-height:640px;
     background:white;
     display:flex;
     flex-direction:column;
+    overflow:hidden;
+    position:relative;
 }
 
 #viewer-wrap {
@@ -65,4 +67,21 @@
 #kmlViewer {
     width:100%;
     height:100%;
+}
+
+#viewer-profile {
+    display:none;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:150px;
+    background:white;
+}
+
+#profile-canvas {
+    width:100% !important;
+    height:100% !important;
+    padding:1em 1em 0 1em;
+    color: #eee;
+    border-top:2px solid #eee;
 }
