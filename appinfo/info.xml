@@ -12,6 +12,6 @@
     <category>integration</category>
     <bugs>https://www.github.com</bugs>
     <dependencies>
-        <nextcloud min-version="14" max-version="14"/>
+        <nextcloud min-version="14" max-version="16"/>
     </dependencies>
 </info>
